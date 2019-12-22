@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lkprojects.storyappSecond">
+    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".storiesclasses.SelectCategories">
+
+        </activity>
+        <activity
+            android:name=".Fronttest"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".storiesclasses.StoryTwo"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.StoryOne"
+            android:label="@string/title_activity_story_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4414879063309753~4745959799" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".storiesclasses.StoryThree"
+            android:label="@string/title_activity_story3"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".storiesclasses.StoryFour"
+            android:label="@string/title_activity_story_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.StoryFive"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.StorySix"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.StorySeven"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.StoryEight"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.StoryNine"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.StoryTen"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story11"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story12"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story13"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story14"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story15"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story16"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story17"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story18"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story19"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story20"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story21"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story22"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story23"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story24"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story25"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story26"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story27"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story28"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story29"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story30"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story31"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story32"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story33"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story34"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story35"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story36"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story37"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story38"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story39"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story40"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story41"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story42"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story43"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story44"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story45"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story46"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story47"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story48"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story49"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story50"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story51"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story52"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story53"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story54"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story55"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story56"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story57"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story58"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story59"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story60"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story61"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story62"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story63"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story64"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story65"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story66"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story67"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story68"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story69"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story70"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.Story71"
+            android:label="@string/title_activity_story_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AgeVerify"
+            android:label="@string/title_activity_age_verify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrontScreenNew"
+            android:label="@string/title_activity_front_screen_new"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SelectLoveStories"
+            android:label="@string/title_activity_front_screen_new"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.LoveStory1"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.LoveStory2"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.LoveStory3"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.LoveStory4"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.LoveStory5"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SelectMotivationalStories"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.MotivationalStory1"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.MotivationalStory2"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.MotivationalStory3"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.MotivationalStory4"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.MotivationalStory5"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.MotivationalStory6"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.MotivationalStory7"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.MotivationalStory8"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.MotivationalStory9"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.MotivationalStory10"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SelectSadStories"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.SadStory1"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.SadStory2"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.SadStory3"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.SadStory4"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.SadStory5"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.SadStory6"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storiesclasses.LoveStory6"
+            android:label="@string/title_activity_story_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
